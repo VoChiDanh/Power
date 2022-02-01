@@ -7,6 +7,7 @@ import net.danh.power.Events.Fish;
 import net.danh.power.Events.Join;
 import net.danh.power.Manager.Data;
 import net.danh.power.Manager.Placeholder;
+import net.danh.power.Manager.Updater;
 import org.bukkit.Bukkit;
 import org.bukkit.entity.Player;
 import org.bukkit.event.Listener;
@@ -49,6 +50,15 @@ public final class Power extends JavaPlugin implements Listener {
         if (Data.getInstance().getlanguage().getDouble("LANGUAGE_VERSION") != 0.1) {
             getLogger().log(Level.WARNING, "You need remove old language!");
         }
+
+        new Updater(this, 99682).getVersion(version -> {
+            if (this.getDescription().getVersion().equals(version)) {
+                getLogger().info("There is not a new update available.");
+            } else {
+                getLogger().warning("There's a new update! The new version is v" + version + ", you are using v" + getDescription().getVersion());
+                getLogger().warning("Download: https://www.spigotmc.org/resources/99682/");
+            }
+        });
         (new BukkitRunnable() {
             public void run() {
                 Iterator var2 = Bukkit.getOnlinePlayers().iterator();

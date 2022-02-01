@@ -6,12 +6,12 @@
 
     <groupId>net.danh</groupId>
     <artifactId>Power</artifactId>
-    <version>0.1-SNAPSHOT</version>
+    <version>0.1.1-SNAPSHOT</version>
     <packaging>jar</packaging>
 
     <name>Power</name>
 
-    <description>Power for player</description>
+    <description>Want an energy plugin for players? Here is a simple plugin that you can use</description>
     <properties>
         <java.version>1.8</java.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
