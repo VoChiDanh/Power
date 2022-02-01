@@ -1,0 +1,13 @@
+name: Power
+version: '${project.version}'
+main: net.danh.power.Power
+api-version: 1.13
+authors: [ VoChiDanh ]
+description: '${project.description}'
+softdepend:
+  - PlaceholderAPI
+commands:
+  power:
+    usage: /power (set/add/remove/check/reload) (player) (number)
+  mpower:
+    usage: /mpower (set/add/remove) (player) (number)

@@ -1,0 +1,30 @@
+#Dont touch it
+CONFIG_VERSION: 0.1
+#Default Power on First Join
+DEFAULT_POWER: 70
+#Default Max Power on First Join
+DEFAULT_MAX_POWER: 100
+#If player has less power than this number, player will get Potion CONFUSION
+MINIMUM_POWER: 30
+#Number of power will restore when drink Potion
+RESTORE_POWER: 1
+MINING:
+  DEFAULT: #For all block doesnt listed below
+    POWER: 1 #Number power you will lost when mine block
+    RPOWER: 5 #If your power lower than this, you cannot mine it
+  DIAMOND_ORE: #Search "Minecraft material type list spigot <your-server-version>-api"
+    POWER: 5
+    RPOWER: 30
+  IRON_ORE:
+    POWER: 3
+    RPOWER: 10
+FISHING:
+  DEFAULT: #For all Entity type doesnt listed below
+    POWER: 1 #Number power you will lost when fishing
+    RPOWER: 5 #If your power lower than this, you cannot caught it
+  RAW_FISH: #Search "Minecraft entity type list spigot <your-server-version>-api"
+    POWER: 5
+    RPOWER: 10
+  FISHING_HOOK:
+    POWER: 3
+    RPOWER: 50

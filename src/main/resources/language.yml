@@ -1,0 +1,12 @@
+#Dont touch it
+LANGUAGE_VERSION: 0.1
+POWER_SET: "&9The power of %player% has been set to %power%"
+POWER_REMOVE: "&9The power of %player% has been remove %power%"
+POWER_ADD: "&9The power of %player% has been add %power%"
+MAX_POWER_SET: "&9The max power of %player% has been set to %power%"
+MAX_POWER_REMOVE: "&9The max power of %player% has been remove %power%"
+MAX_POWER_ADD: "&9The max power of %player% has been add %power%"
+POWER_CHECK: "&9%player% has %power% power"
+PLAYER_NOT_FOUND: "&c%player% not found"
+PLAYER_NOT_ENOUGH_PERM: "&cYou are not enough permission"
+PLAYER_NOT_ENOUGH_POWER: "&cYou are not enough power to break this block"
