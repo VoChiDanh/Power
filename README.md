@@ -1,7 +1,7 @@
 ### Power
 
 ![commit](https://img.shields.io/github/last-commit/VoChiDanh/Power?label=Last%20Update)
-![issues](https://img.shields.io/github/issues/VoChiDanh/SoulPoints?label=Issues)
+![issues](https://img.shields.io/github/issues/VoChiDanh/Power?label=Issues)
 
 ### Information
 Want an energy plugin for players? Here is a simple plugin that you can use
